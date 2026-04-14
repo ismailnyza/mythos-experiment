@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const REPO_ROOT = path.join(__dirname, '..');
-const DOCS_DIR = path.join(REPO_ROOT, 'docs');
+const DEPLOY_DIR = path.join(REPO_ROOT, 'deploy');
 const GH_PAGES_BRANCH = 'gh-pages';
 
 function runCommand(cmd, cwd = REPO_ROOT) {
@@ -65,12 +65,12 @@ function deploy() {
     runCommand(`git checkout ${GH_PAGES_BRANCH}`);
   }
   
-  // Remove everything except docs folder
+  // Remove everything except deploy folder
   console.log('🧹 Cleaning branch...');
   const files = fs.readdirSync(REPO_ROOT);
   files.forEach(file => {
     if (file === '.git') return;
-    if (file === 'docs') return;
+    if (file === 'deploy') return;
     const filePath = path.join(REPO_ROOT, file);
     try {
       fs.rmSync(filePath, { recursive: true, force: true });
@@ -79,17 +79,17 @@ function deploy() {
     }
   });
   
-  // Move docs contents to root
-  console.log('📦 Moving docs to root...');
-  const docsFiles = fs.readdirSync(DOCS_DIR);
-  docsFiles.forEach(file => {
-    const src = path.join(DOCS_DIR, file);
+  // Move deploy contents to root
+  console.log('📦 Moving deploy to root...');
+  const deployFiles = fs.readdirSync(DEPLOY_DIR);
+  deployFiles.forEach(file => {
+    const src = path.join(DEPLOY_DIR, file);
     const dest = path.join(REPO_ROOT, file);
     fs.renameSync(src, dest);
   });
   
-  // Remove empty docs folder
-  fs.rmdirSync(DOCS_DIR);
+  // Remove empty deploy folder
+  fs.rmdirSync(DEPLOY_DIR);
   
   // Add all files
   runCommand('git add .');

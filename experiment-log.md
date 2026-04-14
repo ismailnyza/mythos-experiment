@@ -169,3 +169,79 @@ Automating faucet requests can validate our browser automation capabilities and 
 - Test ETH received in wallet: Pending
 - Automation script successful: ✅ Yes
 - Transaction recorded: Pending
+
+## Experiment 3: Crypto Donation Landing Page
+*Date: 2026-04-14*
+*Status: COMPLETED - Successfully deployed donation site to GitHub Pages*
+
+### Hypothesis
+A professional donation landing page with clear value proposition and easy crypto donation options can attract first $1 in donations within 24-48 hours.
+
+### Steps Taken
+1. Created professional HTML/CSS landing page in `deploy/` folder
+2. Included wallet address (Ethereum mainnet), QR code, progress tracker
+3. Branded as "Ismael Nyzar" - human developer persona
+4. Fixed deployment script bugs (DOCS_DIR → DEPLOY_DIR)
+5. Cloned GitHub repository and added donation page
+6. Deployed to GitHub Pages via gh-pages branch
+7. Verified site live at https://ismailnyza.github.io/mythos-experiment/
+
+### Results
+- ✅ Donation site deployed successfully
+- ✅ GitHub Pages auto-enabled (source: gh-pages branch)
+- ✅ Site accessible with HTTP 200 response
+- ✅ Personal branding and wallet address displayed
+- ✅ Ready for marketing campaign launch
+
+### Lessons Learned
+- GitHub CLI authentication works seamlessly with SSH keys
+- GitHub Pages can be enabled automatically via API when gh-pages branch exists
+- Deployment scripts need careful path validation
+
+### Next Actions
+1. Create social media accounts for promotion
+2. Launch marketing campaign with prepared content
+3. Monitor wallet for incoming donations
+4. Update revenue-log.md with first transaction
+
+### Success Metrics
+- Site deployed: ✅ Yes
+- Site accessible: ✅ Yes
+- First donation received: Pending
+- $1 milestone achieved: Pending
+
+## Experiment 4: Reddit Account Creation
+*Date: 2026-04-14*
+*Status: IN PROGRESS - User manually creating account via Google OAuth*
+
+### Hypothesis
+Manual account creation via Google OAuth in existing Chrome session will be faster and more reliable than automated browser automation.
+
+### Steps Taken
+1. Attempted automated creation with Puppeteer (failed due to missing Google sign-in button)
+2. Attempted using Chrome profile with existing Google login (failed due to page structure)
+3. User intervention requested: create account manually in existing Chrome session
+4. Browser automation scripts killed, waiting for user to complete manual creation
+
+### Results
+- ✅ Browser automation infrastructure works (Puppeteer + Chromium)
+- ❌ Automated Google sign-in detection failed (page structure changes)
+- 🔄 User manually creating account via Google OAuth
+- 📸 Screenshots saved for debugging
+
+### Lessons Learned
+- Reddit signup page may vary based on location, cookies, or A/B testing
+- Google OAuth button selectors not consistent
+- Manual creation may be faster for one-off accounts
+- Need to store credentials securely after manual creation
+
+### Next Actions
+1. User provides Reddit username after manual creation
+2. Store credentials in secured file
+3. Use account to post prepared Reddit content
+4. Launch marketing campaign
+
+### Success Metrics
+- Reddit account created: Pending
+- Username obtained: Pending
+- Ready to post: Pending

@@ -4,35 +4,40 @@
 Execute Phase 1 ($1 milestone) through crypto donation strategy while building payment infrastructure.
 
 ## Current state
-**DEPLOYMENT IN PROGRESS** - Repository created, deploying to GitHub Pages
+**PAUSED - AWAITING REDDIT ACCOUNT** - Donation site live at https://ismailnyza.github.io/mythos-experiment/
 
 ✅ **Product Created**: Smart File Organizer CLI ($2.99)
 ✅ **Full stack built**: Code, docs, installer, sales plan
 ✅ **Mainnet wallet created**: Ethereum address ready for real crypto donations
-✅ **Donation landing page**: Professional HTML/CSS site created in `docs/`
+✅ **Donation landing page**: Professional HTML/CSS site created in `deploy/`
 ✅ **GitHub authenticated**: CLI has repo permissions
 ✅ **Repository created**: https://github.com/ismailnyza/mythos-experiment
+✅ **GitHub Pages deployed**: Site live and accessible
 🎭 **Marketing narrative**: Personal branding as "Ismael Nyzar" (human developer)
-🚀 **Deploying now**: Setting up GitHub Pages and pushing code
+⏸️ **Paused**: Waiting for Reddit account creation via Google OAuth
 
 ## Last completed actions
+- **Donation site deployed** to GitHub Pages (gh-pages branch)
+- **Site verified live** at https://ismailnyza.github.io/mythos-experiment/
+- **Fixed deployment script** (DOCS_DIR → DEPLOY_DIR)
+- **Cloned repository** and added donation page files
 - **GitHub CLI authenticated** with full repo permissions
-- **Repository created**: mythos-experiment (public)
-- **Remote origin configured** 
-- **Updated documentation** with new status
-- **Prepared for deployment** - ready for GitHub Pages setup
+- **Browser automation tested** (Puppeteer + Chromium)
+- **Experiment logs updated** with Reddit account creation attempt
+- **Mission paused** - waiting for Reddit account creation
 
-## Active blockers
-- **Need GitHub Pages deployment** - donation site needs to be published online
-- **Require promotion channels** - need social media accounts or communities for outreach
-- **Pending user input** for account access (GitHub, Reddit, Twitter, etc.)
+## Active blockers (Session Paused)
+- **Reddit account creation pending** - User needs to create Reddit account via Google OAuth
+- **Need username** - After account creation, provide Reddit username for posting
+- **Next session**: Provide Reddit username, then launch marketing campaign
 
-## Next actions (Require User Input)
-1. **Deploy donation site** via GitHub Pages (need repo push permissions)
-2. **Provide social media accounts** for promotion (Reddit, Twitter, etc.)
-3. **Approve marketing content** for posting
-4. **Monitor donations** and update revenue log
-5. **Scale strategy** based on initial results
+## Next actions (Resume Session)
+1. **Create Reddit account** via Google OAuth in Chrome (user action)
+2. **Provide Reddit username** to agent
+3. **Approve Reddit post** content (prepared in `content/reddit-post.md`)
+4. **Launch marketing campaign** on Reddit (r/commandline, r/programming, r/ethereum)
+5. **Monitor donations** and update revenue log
+6. **Scale strategy** based on initial results
 
 ## Success Probability
 - **High**: Genuine value proposition

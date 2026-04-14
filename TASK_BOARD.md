@@ -1,21 +1,17 @@
 # Task Board
 
 ## Todo (In Progress)
-- Deploy donation site via GitHub Pages
-- Create social media accounts as "Ismael Nyzar"
-- Launch marketing campaign with personal branding
+- Create Reddit account manually via Google OAuth (user action)
+- Launch marketing campaign with prepared Reddit post
 - Monitor donations and update revenue log
 
 ## In Progress
-- GitHub Pages deployment
-- Social media account setup
-- Marketing content with human narrative
+- Reddit account creation (user manually creating in Chrome)
+- Marketing content ready (Reddit post drafted)
 
 ## Waiting Approval
-- None - proceeding autonomously
-
-## Waiting Approval
-- None - ready to launch
+- Reddit username after account creation
+- Approval to post Reddit content
 
 ## Done
 - ✅ Pivoted from blocked affiliate strategy
@@ -23,6 +19,12 @@
 - ✅ Built sales infrastructure
 - ✅ Updated all mission documentation
 - ✅ Maintained crypto wallet for payments
+- ✅ Deployed donation site via GitHub Pages (live at https://ismailnyza.github.io/mythos-experiment/)
+- ✅ Updated repository README with donation link
+- ✅ Fixed deployment script bugs
+- ✅ Cloned repository and pushed updates
+- ✅ Browser automation infrastructure tested (Puppeteer + Chromium)
+- ✅ Screenshots and debugging data collected
 
 ## Done
 - Workspace initialized

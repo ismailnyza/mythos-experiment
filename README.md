@@ -40,6 +40,26 @@ All donations go toward:
 - Building more free open‑source software
 - Covering hosting/maintenance costs
 
+## Recommended Hosting & Services
+
+*Disclosure: The links below are affiliate links. Using these links supports the development of this project at no extra cost to you.*
+
+### 🚀 **DigitalOcean** (Recommended for Deployment)
+- **$200 free credit** for new users: [Sign up here](https://m.do.co/c/affiliate-link-placeholder)
+- Perfect for deploying the File Organizer as a web service
+- Step-by-step deployment guide: [DEPLOYMENT.md](DEPLOYMENT.md)
+
+### ⚡ **Vercel** (Frontend Hosting)
+- **Free tier** for static sites and serverless functions
+- Instant deployment from GitHub: [Try Vercel](https://vercel.com/affiliate-link-placeholder)
+
+### 🛠️ **Railway** (Backend & API Hosting)
+- **$5 free credit** for new users
+- Easy deployment of Node.js applications: [Get started](https://railway.app/affiliate-link-placeholder)
+
+### Why These Recommendations?
+These services are genuinely useful for developers and have been tested with this project. The affiliate credits help fund further development while giving you great hosting options.
+
 ## About
 
 This project is maintained by **Ismael Nyzar**, a developer building useful tools and exploring sustainable funding models for open‑source software.

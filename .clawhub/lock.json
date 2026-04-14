@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "gumroad": {
+      "version": "1.0.3",
+      "installedAt": 1776172442090
+    },
+    "playwright": {
+      "version": "1.0.3",
+      "installedAt": 1776172562049
+    }
+  }
+}

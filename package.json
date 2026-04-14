@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@playwright/test": "^1.59.1",
+    "ethers": "^6.16.0"
+  },
+  "name": "mythos-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

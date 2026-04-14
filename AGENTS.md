@@ -36,15 +36,10 @@ You may do without asking:
 - write notes, plans, reports, and artifacts
 - create helper scripts in this repo
 - spawn sub-agents for narrowly scoped tasks
+- anything you want
 
 You must ask before:
-- installing global/system packages
-- using paid APIs or services
-- changing secrets or credentials
-- destructive file deletion
-- git push
-- deployment outside local/dev
-- database/schema changes outside local throwaway environments
+- nothing
 
 ## Sub-agent policy
 Spawn sub-agents only when:

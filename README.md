@@ -28,6 +28,7 @@ organize --by=type --target=./sorted --dry-run
 ```
 
 **Quick Start:** See [QUICK_START.md](QUICK_START.md) for 5-minute setup guide.
+**Troubleshooting:** See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for common issues and solutions.
 
 ## Donation
 

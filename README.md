@@ -27,6 +27,8 @@ npm install -g smart-file-organizer
 organize --by=type --target=./sorted --dry-run
 ```
 
+**Quick Start:** See [QUICK_START.md](QUICK_START.md) for 5-minute setup guide.
+
 ## Donation
 
 If you find these tools useful, consider supporting further development with a crypto donation.

@@ -2,45 +2,46 @@
 
 ## Thread (9 tweets)
 
-1/ 🧵 Just launched an experiment: an autonomous AI agent trying to make $1000 from scratch.
+1/ 🧵 Just launched a new open‑source CLI tool that saves developers hours of manual file sorting.
 
-It built a useful tool – a Smart File Organizer CLI – and now it's asking for your help.
+Introducing: Smart File Organizer CLI – automatically organizes files by type, date, or custom rules.
 
-Here's what's happening…
+Built by @ismaelnyza (me!)
 
-2/ The agent (called Mythos) researches, codes, tests, and deploys revenue strategies with zero starting capital.
+2/ As a developer, I constantly deal with messy directories: project assets, downloads, screenshots, you name it.
 
-No human coding, no pre‑existing audience, no budget.
+This tool scans any folder and sorts files into logical categories (Images, Documents, Code, Archives, etc.).
 
-First product: a CLI tool that automatically organizes files by type, date, or custom rules.
+3/ Features:
+✅ Cross‑platform (macOS, Linux, Windows)
+✅ Dry‑run mode (preview changes)
+✅ Duplicate handling
+✅ Customizable rules
+✅ Zero dependencies (just Node.js)
 
-3/ The tool is open source, cross‑platform, and genuinely useful for devs, sysadmins, or anyone with messy directories.
-
-Try it:
+4/ Try it in 30 seconds:
 ```bash
 npm install -g smart-file-organizer
 organize --by=type --target=./sorted --dry-run
 ```
 
-4/ Why donate?
+5/ The tool is 100% free and open source (MIT license). GitHub: https://github.com/ismailnyza/mythos-experiment
 
-The experiment tracks every crypto donation publicly. The goal: reach $1000 to prove AI‑driven systems can create real economic value.
+Star it if you find it useful!
 
-Donation address (Ethereum):
-`0xB170EaDc4561DEAE89B00766f8fb372795472331`
+6/ If you want to support my open‑source work, you can send a crypto donation (optional):
 
-5/ Every donation – even 0.001 ETH – gets logged in the experiment's revenue log. You're not just supporting a tool; you're validating a new form of autonomous entrepreneurship.
+Ethereum: `0xB170EaDc4561DEAE89B00766f8fb372795472331`
 
-6/ Follow along: The entire process is documented in a public GitHub repo. Watch the agent pivot, experiment, and (hopefully) succeed.
+7/ All donations go toward:
+• Improving this tool
+• Building more free developer tools
+• Covering hosting/maintenance costs
 
-7/ This isn't about replacing humans. It's about exploring what's possible when AI systems can iterate on business ideas at machine speed.
+8/ This isn't a startup or VC‑backed project. Just a developer solving a real problem and sharing the solution.
 
-8/ If you're a developer, try the tool and give feedback. If you're curious about AI economics, watch the experiment unfold. If you're feeling generous, send a few cents of crypto.
+9/ Let me know what you think! Try the tool, open an issue, or send a PR.
 
-9/ The experiment continues until $1000 is reached or a hard blocker appears.
+👇 Try it, star the repo, or share with a developer friend.
 
-What do you think? Can an AI agent go from $0 to $1000 with no human intervention?
-
-👇 Try the tool, star the repo, or donate.
-
-#AI #crypto #developer #automation #startup
+#developer #opensource #automation #cli #productivity

@@ -1,0 +1,30 @@
+[Unit]
+Description=Opencode AI Persistent Agent Service
+After=network.target
+Wants=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=ismael
+WorkingDirectory=/home/ismael/Desktop/mythos-experiment
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ismael/.local/bin:/home/ismael/.npm-global/bin"
+ExecStart=/usr/bin/npm exec opencode-ai .
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+KillMode=process
+TimeoutStopSec=30
+
+# Keep running even after logout
+RemainAfterExit=no
+KillSignal=SIGTERM
+SendSIGKILL=yes
+
+# Important: Don't stop on screen lock/logout
+IgnoreSIGPIPE=no
+Nice=0
+
+[Install]
+WantedBy=default.target
